@@ -1,0 +1,18 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Cabin-Regular
+font link: https://fonts.google.com/specimen/Cabin
+font author: Impallari Type
+font author site: www.impallari.com
+
+
+icon designer: AlfredoCreates.com/icons & Flaticondesign.com
+icon designer link: /AlfredoCreates
+        
+
+fontColor: {"hex":"#1d809f"}
+bgColor: {"hex":"#DEE5F3"}
+iconColor: {"hex":"#1d809f"}
+
+      
