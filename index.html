@@ -5,10 +5,10 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="Swiftify - AI Development Agency for Cross-Border E-commerce">
+  <meta name="author" content="Swiftify">
 
-  <title>Swiftify - A better supply chain flow</title>
+  <title>Swiftify - AI Development Agency</title>
 
   <link rel="shortcut icon" type="image/png" href="img/logo2/profile.png"/>
 
@@ -23,37 +23,28 @@
 
   <!-- Custom CSS -->
   <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+  
+  <!-- Language Switcher CSS -->
+  <link href="css/language-switcher.css" rel="stylesheet">
 
-  <!-- chatra -->
-  <!-- disable Chatra -->
-  <!-- <script type="text/javascript">
+  
 
-    (function(d, w, c) {
-          w.ChatraID = 'bn5Y4y34brurS45Pz';
-          var s = d.createElement('script');
-          w[c] = w[c] || function() {
-              (w[c].q = w[c].q || []).push(arguments);
-          };
-          s.async = true;
-          s.src = 'https://call.chatra.io/chatra.js';
-          if (d.head) d.head.appendChild(s);
-      })(document, window, 'Chatra');
-
-  </script> -->
+  <!-- Remove the inline style for language switcher as we now have a separate CSS file -->
+  <style media="screen">
+    .mb-1{
+      color: white;
+    }
+  </style>
 
 </head>
-<style media="screen">
 
+<body id="page-top" class="en">
 
-
-  .mb-1{
-    color: white;
-  }
-
-
-</style>
-
-<body id="page-top">
+  <!-- Language Switcher -->
+  <div class="language-switcher">
+    <button id="en-btn" class="active">EN</button> | 
+    <button id="zh-btn">中文</button>
+  </div>
 
   <!-- Navigation -->
   <a class="menu-toggle rounded" href="#">
@@ -68,28 +59,31 @@
       </li>
 
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#page-top">Home</a>
+        <a class="js-scroll-trigger" href="#page-top">
+          <span lang="en">Home</span>
+          <span lang="zh">首页</span>
+        </a>
       </li>
 
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#pricing">Pricing</a>
-      </li>
-
-
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#product">Product</a>
-      </li>
-
-      <!-- <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#contact">Contact us</a>
-      </li> -->
-
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger btn btn-primary" href="https://app.exhausted-log.com/user/register">Sign up</a>
+        <a class="js-scroll-trigger" href="#pricing">
+          <span lang="en">Pricing</span>
+          <span lang="zh">价格</span>
+        </a>
       </li>
 
       <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger btn btn-primary" href="https://app.exhausted-log.com/signin">Sign in</a>
+        <a class="js-scroll-trigger" href="#product">
+          <span lang="en">Services</span>
+          <span lang="zh">服务</span>
+        </a>
+      </li>
+
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger btn btn-primary" href="#contact">
+          <span lang="en">Contact Us</span>
+          <span lang="zh">联系我们</span>
+        </a>
       </li>
 
     </ul>
@@ -98,11 +92,17 @@
   <!-- Header -->
   <header class="masthead d-flex">
     <div class="container text-center my-auto">
-      <h2 class="mb-1">
-        Exhausted Logistics lets you work more collaboratively with your partners ranging from sourcing, procurement to logistics and get more done.
+      <h2 class="mb-1" lang="en">
+        Swiftify - Your AI Development Partner for Cross-Border E-commerce
+      </h2>
+      <h2 class="mb-1" lang="zh">
+        深圳赛恩费恩网络科技有限公司 - 您的跨境电商AI开发伙伴
       </h2>
 
-      <a class="btn btn-primary btn-xl js-scroll-trigger" href="https://app.exhausted-log.com/user/register">Try 30 days for free</a>
+      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#product">
+        <span lang="en">Explore Our Services</span>
+        <span lang="zh">探索我们的服务</span>
+      </a>
     </div>
     <div class="overlay"></div>
   </header>
@@ -117,11 +117,16 @@
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <h2></h2>
-            <p class="lead mb-5">
-              Exhausted Logistics is a simple, versatile and centrally integrated SaaS (Software-as-a-service) based solution that lets you manage your supply chain at efficiency and scale.
-              Exhausted Logistics's inhouse proprietary software for automated inventories management, procurement management, and automated freight booking enables you to operate your business processes at a visual manner.
+            <p class="lead mb-5" lang="en">
+              Swiftify specializes in providing intelligent, automated digital marketing and data management solutions for the cross-border e-commerce industry. We focus on serving small and medium-sized enterprises, helping them break geographical limitations and efficiently expand into international markets through innovative technologies and effective tools.
             </p>
-            <a class="btn btn-dark btn-xl js-scroll-trigger" href="#features">Explore the product</a>
+            <p class="lead mb-5" lang="zh">
+              深圳赛恩费恩网络科技有限公司专注于为跨境电商行业提供智能化、自动化的数字营销和数据管理解决方案。我们以中小企业为核心服务对象，通过创新技术和高效工具，帮助企业打破地域限制，高效地布局国际市场，实现品牌和销售的全球化。
+            </p>
+            <a class="btn btn-dark btn-xl js-scroll-trigger" href="#features">
+              <span lang="en">Our Core Services</span>
+              <span lang="zh">核心服务</span>
+            </a>
           </div>
         </div>
       </div>
@@ -131,7 +136,8 @@
     <section class="content-section bg-primary text-white text-center" id="features">
       <div class="container">
         <div class="content-section-heading">
-          <h2 class="mb-5">Sourcing</h2>
+          <h2 class="mb-5" lang="en">E-commerce Integration Solutions</h2>
+          <h2 class="mb-5" lang="zh">电商平台对接</h2>
         </div>
         <div class="row">
           <div class="col-lg-6 col-md-6 mb-5 mb-lg-0">
@@ -139,10 +145,15 @@
               <i class="fas fa-database"></i>
             </span>
             <h4>
-              <strong>Product Database</strong>
+              <strong lang="en">Platform Integration</strong>
+              <strong lang="zh">平台集成</strong>
             </h4>
-            <p class="text-faded mb-0">
-              Source and buy from a curated database of high-quality products offered from verified suppliers.
+            <p class="text-faded mb-0" lang="en">
+              Seamless integration with Shopify, Amazon, eBay, and 1688, allowing quick import of product data and full process support from product management to inventory synchronization.
+            </p>
+            <p class="text-faded mb-0" lang="zh">
+              集成Shopify、亚马逊、eBay及1688等电商平台，快速导入产品数据。实现从产品管理到库存同步的全流程支持。
+            </p>
             <br>
           </div>
 
@@ -151,38 +162,48 @@
               <i class="fas fa-robot m-auto text-primary"></i>
             </span>
             <h4>
-              <strong>Automated Quotation</strong>
+              <strong lang="en">AI-Powered Ad Creation</strong>
+              <strong lang="zh">自动化广告内容制作</strong>
             </h4>
-            <p class="text-faded mb-0">
-              Automate sourcing quotation request and receive live quotations from vendors.
+            <p class="text-faded mb-0" lang="en">
+              AI-generated high-quality video ads, covering e-commerce product images, short video marketing materials, with multi-language support to adapt to local market needs.
+            </p>
+            <p class="text-faded mb-0" lang="zh">
+              基于AI生成高质量视频广告，覆盖电商产品主图、短视频营销素材等。提供多语言支持，适配目标市场的本地化需求。
             </p>
             <br>
           </div>
 
           <div class="col-lg-6 col-md-6 mb-5 mb-md-0">
             <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="fas fa-file-csv"></i>
+              <i class="fas fa-share-alt"></i>
             </span>
             <h4>
-              <strong>Quotes Management</strong>
+              <strong lang="en">Multi-Channel Publishing</strong>
+              <strong lang="zh">多渠道同步发布</strong>
             </h4>
-            <p class="text-faded mb-0">
-              Manage vendor quotes all in one central platform. Negotiate, reject, or accept and convert a quote to purchase order in live.
+            <p class="text-faded mb-0" lang="en">
+              Support for content distribution across mainstream social media platforms like TikTok, Facebook, Instagram, YouTube, and LinkedIn, with optimized ad parameters to enhance coverage and conversion.
             </p>
-
+            <p class="text-faded mb-0" lang="zh">
+              支持TikTok、Facebook、Instagram、YouTube和LinkedIn等主流社交媒体平台的内容分发。根据平台算法优化广告投放参数，提升覆盖和转化效果。
+            </p>
           </div>
 
 
           <div class="col-lg-6 col-md-6">
             <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="fas fa-people-carry"></i>
+              <i class="fas fa-cloud"></i>
             </span>
             <h4>
-              <strong>Vendor Collaboration</strong>
+              <strong lang="en">Cloud Intelligent Workflow</strong>
+              <strong lang="zh">云端智能工作流</strong>
             </h4>
-            <p class="text-faded mb-0">
-              Collaborate with vendors in real-time and get notified whenever your quotation updates.
-              No more tedious manual email back and forth
+            <p class="text-faded mb-0" lang="en">
+              Cloud-based automation services for dynamic resource allocation, task progress tracking, and real-time ad content status updates.
+            </p>
+            <p class="text-faded mb-0" lang="zh">
+              利用云端自动化服务，动态分配资源处理任务（如广告生成和视频上传）。系统支持任务进度追踪和广告内容实时状态更新。
             </p>
           </div>
         </div>
@@ -194,62 +215,76 @@
     <section class="content-section bg-primary text-white text-center" id="features">
       <div class="container">
         <div class="content-section-heading">
-          <h2 class="mb-5">Procurement</h2>
+          <h2 class="mb-5" lang="en">Data Analysis & Marketing</h2>
+          <h2 class="mb-5" lang="zh">广告投放与数据分析</h2>
         </div>
         <div class="row">
           <div class="col-lg-6 col-md-6 mb-5 mb-lg-0">
             <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="fas fa-paper-plane"></i>
+              <i class="fas fa-chart-bar"></i>
             </span>
 
             <h4>
-              <strong>Sourcing-to-procure</strong>
+              <strong lang="en">AI-Powered Analytics</strong>
+              <strong lang="zh">AI驱动分析</strong>
             </h4>
 
-            <p class="text-faded mb-0">
-              Approve, reject or accept a vendor quote and convert this quote to a Purchase Order directly.
+            <p class="text-faded mb-0" lang="en">
+              Leverage machine learning algorithms to analyze customer behavior and optimize your marketing strategies across multiple platforms.
+            </p>
+            <p class="text-faded mb-0" lang="zh">
+              利用机器学习算法分析客户行为，优化您在多个平台上的营销策略。
             </p>
             <br>
           </div>
 
           <div class="col-lg-6 col-md-6 mb-5 mb-lg-0">
             <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="fas fa-file-powerpoint"></i>
+              <i class="fas fa-language"></i>
             </span>
             <h4>
-              <strong>Automated P.O.</strong>
+              <strong lang="en">Multilingual Content Generation</strong>
+              <strong lang="zh">多语言内容生成</strong>
             </h4>
-            <p class="text-faded mb-0">
-              Auto matching and filling the purchase order from the price book when a vendor is selected.
+            <p class="text-faded mb-0" lang="en">
+              Create localized marketing content in multiple languages to effectively reach global markets with culturally appropriate messaging.
+            </p>
+            <p class="text-faded mb-0" lang="zh">
+              创建多种语言的本地化营销内容，通过文化适应性信息有效触达全球市场。
             </p>
             <br>
           </div>
 
           <div class="col-lg-6 col-md-6 mb-5 mb-md-0">
             <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="fas fa-shopping-cart"></i>
+              <i class="fas fa-bullseye"></i>
             </span>
             <h4>
-              <strong>Vendor Management</strong>
+              <strong lang="en">Targeted Campaign Management</strong>
+              <strong lang="zh">精准营销活动管理</strong>
             </h4>
-            <p class="text-faded mb-0">
-              Build a curated list of suppliers for contact details, products and performance records.
-              Onboard, profile and communicate with suppliers all in one central communication platform.
+            <p class="text-faded mb-0" lang="en">
+              Develop and manage targeted marketing campaigns across multiple channels with automated optimization based on real-time performance data.
             </p>
-
+            <p class="text-faded mb-0" lang="zh">
+              基于实时性能数据，在多个渠道开发和管理精准营销活动，实现自动化优化。
+            </p>
           </div>
 
 
           <div class="col-lg-6 col-md-6">
             <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="far fa-envelope-open"></i>
+              <i class="fas fa-comments"></i>
             </span>
             <h4>
-              <strong>Communications & Project Management</strong>
+              <strong lang="en">AI Customer Engagement</strong>
+              <strong lang="zh">AI客户互动</strong>
             </h4>
-            <p class="text-faded mb-0">
-              Approve purchase requests from other team members in a well-structured procurement workflow.
-              Integrate your purchasing team and link documents in a single thread.
+            <p class="text-faded mb-0" lang="en">
+              Implement intelligent chatbots and automated customer service solutions to enhance customer engagement and support across global markets.
+            </p>
+            <p class="text-faded mb-0" lang="zh">
+              实施智能聊天机器人和自动化客户服务解决方案，提升全球市场的客户互动和支持。
             </p>
           </div>
         </div>
@@ -262,39 +297,46 @@
     </section>
 
 
-    <!-- feature 3 - logistics-->
+    <!-- feature 3 - Content Creation -->
     <section class="content-section bg-primary text-white text-center" id="features">
       <div class="container">
         <div class="content-section-heading">
-          <h2 class="mb-5">Logistics</h2>
+          <h2 class="mb-5" lang="en">AI Content Creation</h2>
+          <h2 class="mb-5" lang="zh">AI内容创作</h2>
         </div>
         <div class="row">
           <div class="col-lg-6 col-md-6 mb-5 mb-lg-0">
             <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="fas fa-anchor"></i>
+              <i class="fas fa-video"></i>
             </span>
 
             <h4>
-              <strong>Live Sea & Air Freight Rates</strong>
+              <strong lang="en">Automated Video Production</strong>
+              <strong lang="zh">自动化视频制作</strong>
             </h4>
 
-            <p class="text-faded mb-0">
-              Access live capacity and pricing rate from air and sea carriers and book your shipments online.
+            <p class="text-faded mb-0" lang="en">
+              Generate high-quality product videos and promotional content automatically with our AI-powered video creation tools.
+            </p>
+            <p class="text-faded mb-0" lang="zh">
+              使用我们的AI视频创作工具，自动生成高质量的产品视频和宣传内容。
             </p>
             <br>
           </div>
 
           <div class="col-lg-6 col-md-6 mb-5 mb-lg-0">
             <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="fas fa-file-powerpoint"></i>
+              <i class="fas fa-image"></i>
             </span>
             <h4>
-              <strong>Sales & Procurement Integration</strong>
+              <strong lang="en">Product Image Enhancement</strong>
+              <strong lang="zh">产品图像增强</strong>
             </h4>
-            <p class="text-faded mb-0">
-              Integrate an ongoing purchasing or sales pipeline with a shipment from quoting to booking.
-              Manage sourcing, purchasing, and logistics in one single-threaded activity flow.
-
+            <p class="text-faded mb-0" lang="en">
+              Transform ordinary product photos into professional marketing assets with AI-powered image enhancement and background removal.
+            </p>
+            <p class="text-faded mb-0" lang="zh">
+              通过AI图像增强和背景去除技术，将普通产品照片转变为专业营销素材。
             </p>
             <br>
           </div>
@@ -308,401 +350,429 @@
       </div>
     </section>
 
+
+    <!-- feature 4 -->
+    <section class="content-section bg-primary text-white text-center" id="features">
+      <div class="container">
+        <div class="content-section-heading">
+          <h2 class="mb-5" lang="en">Precision Ad Placement</h2>
+          <h2 class="mb-5" lang="zh">精准广告投放</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="fas fa-chart-line"></i>
+            </span>
+            <h4>
+              <strong lang="en">Precision Ad Placement</strong>
+              <strong lang="zh">精准广告投放</strong>
+            </h4>
+            <p class="text-faded mb-0" lang="en">
+              Intelligent ad budget management and precise placement using platform APIs (such as TikTok Ads and Meta Ads), with A/B testing functionality to help optimize placement strategies.
+            </p>
+            <p class="text-faded mb-0" lang="zh">
+              利用平台API（如TikTok Ads和Meta Ads），实现智能化的广告预算管理和精准投放。提供A/B测试功能，帮助企业优化投放策略。
+            </p>
+            <br>
+          </div>
+
+          <div class="col-lg-6 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="fas fa-database m-auto text-primary"></i>
+            </span>
+            <h4>
+              <strong lang="en">Data Integration & Insights</strong>
+              <strong lang="zh">数据整合与洞察</strong>
+            </h4>
+            <p class="text-faded mb-0" lang="en">
+              Integration of multi-platform data (e-commerce sales, ad interactions, user behavior, etc.) to generate panoramic data reports and leverage big data analysis technology to gain market insights.
+            </p>
+            <p class="text-faded mb-0" lang="zh">
+              集成多平台数据（电商销售、广告互动、用户行为等），生成全景式数据报告。利用大数据分析技术，洞察市场趋势，支持企业制定长期发展策略。
+            </p>
+            <br>
+          </div>
+
+          <div class="col-lg-6 col-md-6 mb-5 mb-md-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="fas fa-globe-asia"></i>
+            </span>
+            <h4>
+              <strong lang="en">Market Adaptation</strong>
+              <strong lang="zh">市场适配</strong>
+            </h4>
+            <p class="text-faded mb-0" lang="en">
+              Targeted ad optimization services for different countries and regions to enhance acceptance by target market users.
+            </p>
+            <p class="text-faded mb-0" lang="zh">
+              提供针对不同国家和地区的广告优化服务，提升目标市场用户的接受度。
+            </p>
+          </div>
+
+
+          <div class="col-lg-6 col-md-6">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="fas fa-graduation-cap"></i>
+            </span>
+            <h4>
+              <strong lang="en">Technical Support & Training</strong>
+              <strong lang="zh">技术与培训支持</strong>
+            </h4>
+            <p class="text-faded mb-0" lang="en">
+              System usage training and marketing strategy consulting for cross-border e-commerce teams.
+            </p>
+            <p class="text-faded mb-0" lang="zh">
+              为跨境电商团队提供系统使用培训和营销策略咨询。
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- feature 3 -->
+    <section class="content-section bg-primary text-white text-center" id="features">
+      <div class="container">
+        <div class="content-section-heading">
+          <h2 class="mb-5" lang="en">Technical Architecture</h2>
+          <h2 class="mb-5" lang="zh">技术架构</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="fas fa-code"></i>
+            </span>
+            <h4>
+              <strong lang="en">Backend Development</strong>
+              <strong lang="zh">后端开发</strong>
+            </h4>
+            <p class="text-faded mb-0" lang="en">
+              Efficient automated task management system built with Python (Flask), Celery, and Redis.
+            </p>
+            <p class="text-faded mb-0" lang="zh">
+              使用Python (Flask)、Celery、Redis搭建高效的自动化任务管理系统。
+            </p>
+            <br>
+          </div>
+
+          <div class="col-lg-6 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="fas fa-laptop-code m-auto text-primary"></i>
+            </span>
+            <h4>
+              <strong lang="en">Frontend Management</strong>
+              <strong lang="zh">前端管理</strong>
+            </h4>
+            <p class="text-faded mb-0" lang="en">
+              Intuitive operation panel provided through React or Vue.js for easy enterprise management of ads and data.
+            </p>
+            <p class="text-faded mb-0" lang="zh">
+              通过React或Vue.js提供直观的操作面板，便于企业管理广告和数据。
+            </p>
+            <br>
+          </div>
+
+          <div class="col-lg-6 col-md-6 mb-5 mb-md-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="fas fa-plug"></i>
+            </span>
+            <h4>
+              <strong lang="en">Multi-Platform Integration</strong>
+              <strong lang="zh">多平台集成</strong>
+            </h4>
+            <p class="text-faded mb-0" lang="en">
+              Deep integration with TikTok Ads, Meta Ads (Facebook/Instagram), YouTube API, LinkedIn Ads, and Shopify API.
+            </p>
+            <p class="text-faded mb-0" lang="zh">
+              深度对接TikTok Ads、Meta Ads（Facebook/Instagram）、YouTube API、LinkedIn Ads以及Shopify API。
+            </p>
+          </div>
+
+
+          <div class="col-lg-6 col-md-6">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+              <i class="fas fa-cloud-upload-alt"></i>
+            </span>
+            <h4>
+              <strong lang="en">Cloud Deployment & Expansion</strong>
+              <strong lang="zh">云部署与扩展</strong>
+            </h4>
+            <p class="text-faded mb-0" lang="en">
+              Docker containerization technology deployed on AWS, Google Cloud, or Alibaba Cloud to support global business needs.
+            </p>
+            <p class="text-faded mb-0" lang="zh">
+              使用Docker容器化技术部署于AWS、Google Cloud或阿里云，支持全球化业务需求。
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
   </div>
-  <!-- end of product  -->
+  <!-- end of product -->
 
-
-
-
-
-
-<!-- pricing -->
-<section class="pricing py-5" id="pricing">
-  <div class="container">
-    <div class="row">
-      <!-- Free Tier -->
-      <div class="col-lg-4">
-        <div class="card mb-5 mb-lg-0">
-          <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Starter</h5>
-            <h6 class="card-price text-center">$57<span class="period">/month</span></h6>
-            <hr>
-            <ul class="fa-ul">
-              <li>
-                <span class="fa-li">
-                  <i class="fas fa-check"></i>
-                </span>
-                Single User
-              </li>
-
-              <li>
-                <span class="fa-li">
-                  <i class="fas fa-check"></i>
-                </span>
-                Unlimited Transactions(requests, purchases,and sales orders)
-              </li>
-
-              <li>
-                <span class="fa-li"><i class="fas fa-check"></i>
-                </span>
-                Unlimited Records Keep(Suppliers, customers, estimates, purchase orders, sales orders and invoices. )
-              </li>
-
-              <li>
-                <span class="fa-li">
-                  <i class="fas fa-check"></i>
-                </span>
-                Chat & Email Support
-              </li>
-
-              <li class="text-muted">
-                <span class="fa-li">
-                  <i class="fas fa-times"></i>
-                </span>
-                Dedicated Phone Support
-              </li>
-
-              <li class="text-muted">
-                <span class="fa-li">
-                  <i class="fas fa-times"></i>
-                </span>
-                Curated E-Sourcing Product Database
-              </li>
-
-
-              <li class="text-muted">
-                <span class="fa-li">
-                  <i class="fas fa-times"></i>
-                </span>
-                Logistics Live Quote and Booking
-              </li>
-
-              <li class="text-muted">
-                <span class="fa-li">
-                  <i class="fas fa-times"></i>
-                </span>Custom Domain
-              </li>
-
-              <li class="text-muted">
-                <span class="fa-li">
-                  <i class="fas fa-times"></i>
-                </span>System Integration
-              </li>
-
-              <li class="text-muted">
-                <span class="fa-li">
-                  <i class="fas fa-times"></i>
-                </span>API Access
-              </li>
-
-              <li class="text-muted">
-                <span class="fa-li">
-                  <i class="fas fa-times"></i>
-                </span>White Label Solution
-              </li>
-
-              <li class="text-muted">
-                <span class="fa-li">
-                  <i class="fas fa-times"></i>
-                </span>Dedicated Account Manager
-              </li>
-
-            </ul>
-
-            <a href="https://app.exhausted-log.com/user/register" class="btn btn-block btn-primary text-uppercase">Get Started</a>
-
-          </div>
-        </div>
-      </div>
-
-      <!-- Business Tier -->
-      <div class="col-lg-4">
-        <div class="card mb-5 mb-lg-0">
-          <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Business</h5>
-            <h6 class="card-price text-center">$123<span class="period">/month</span></h6>
-            <hr>
-            <ul class="fa-ul">
-              <li>
-                <span class="fa-li">
-                  <i class="fas fa-check"></i>
-                </span>
-                Multiple Users (up to 5 users)
-              </li>
-
-              <li>
-                <span class="fa-li">
-                  <i class="fas fa-check"></i>
-                </span>
-                Unlimited Transactions(requests, purchases,and sales orders)
-              </li>
-
-              <li>
-                <span class="fa-li"><i class="fas fa-check"></i>
-                </span>
-                Unlimited Records Keep(Suppliers, customers, estimates, purchase orders, sales orders and invoices. )
-              </li>
-
-              <li>
-                <span class="fa-li">
-                  <i class="fas fa-check"></i>
-                </span>
-                Chat & Email Support
-              </li>
-
-              <li>
-                <span class="fa-li">
-                  <i class="fas fa-check"></i>
-                </span>
-                Dedicated Phone Support
-              </li>
-
-              <li>
-                <span class="fa-li">
-                  <i class="fas fa-check"></i>
-                </span>
-                Curated E-Sourcing Product Database
-              </li>
-
-
-              <li>
-                <span class="fa-li">
-                  <i class="fas fa-check"></i>
-                </span>
-                Logistics Live E-Quote and E-Booking
-              </li>
-
-              <li class="text-muted">
-                <span class="fa-li">
-                  <i class="fas fa-times"></i>
-                </span>Custom Domain
-              </li>
-
-              <li class="text-muted">
-                <span class="fa-li">
-                  <i class="fas fa-times"></i>
-                </span>System Integration
-              </li>
-
-              <li class="text-muted">
-                <span class="fa-li">
-                  <i class="fas fa-times"></i>
-                </span>API Access
-              </li>
-
-              <li class="text-muted">
-                <span class="fa-li">
-                  <i class="fas fa-times"></i>
-                </span>White Label Solution
-              </li>
-
-              <li class="text-muted">
-                <span class="fa-li">
-                  <i class="fas fa-times"></i>
-                </span>Dedicated Account Manager
-              </li>
-
-
-
-            </ul>
-            <a href="https://app.exhausted-log.com/user/register" class="btn btn-block btn-primary text-uppercase">Get Started</a>
-          </div>
-        </div>
-      </div>
-
-
-
-      <!-- Enterprise Tier -->
-      <div class="col-lg-4">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Enterprise</h5>
-            <h6 class="card-price text-center">$377<span class="period">/month</span></h6>
-            <hr>
-            <ul class="fa-ul">
-              <li>
-                <span class="fa-li">
-                  <i class="fas fa-check"></i>
-                </span>
-
-                Multiple Users (up to 50 users)
-
-              </li>
-
-              <li>
-                <span class="fa-li">
-                  <i class="fas fa-check"></i>
-                </span>
-                Unlimited Transactions(requests, purchases,and sales orders)
-              </li>
-
-              <li>
-                <span class="fa-li"><i class="fas fa-check"></i>
-                </span>
-                Unlimited Records Keep(Suppliers, customers, estimates, purchase orders, sales orders and invoices. )
-              </li>
-
-              <li>
-                <span class="fa-li">
-                  <i class="fas fa-check"></i>
-                </span>
-                Chat & Email Support
-              </li>
-
-              <li class="">
-                <span class="fa-li">
-                  <i class="fas fa-check"></i>
-                </span>
-                Dedicated Phone Support
-              </li>
-
-              <li class="">
-                <span class="fa-li">
-                  <i class="fas fa-check"></i>
-                </span>
-                Curated E-Sourcing Product Database
-              </li>
-
-
-              <li class="">
-                <span class="fa-li">
-                  <i class="fas fa-check"></i>
-                </span>
-                Logistics Live Quote and Booking
-              </li>
-
-              <li class="">
-                <span class="fa-li">
-                  <i class="fas fa-check"></i>
-                </span>Custom Domain
-              </li>
-
-              <li class="">
-                <span class="fa-li">
-                  <i class="fas fa-check"></i>
-                </span>System Integration
-              </li>
-
-              <li class="">
-                <span class="fa-li">
-                  <i class="fas fa-check"></i>
-                </span>API Access
-              </li>
-
-              <li class="">
-                <span class="fa-li">
-                  <i class="fas fa-check"></i>
-                </span>White Label Solution
-              </li>
-
-              <li>
-                <span class="fa-li">
-                  <i class="fas fa-check"></i>
-                </span>Dedicated Account Manager
-              </li>
-
-
-
-            </ul>
-            <a href="https://app.exhausted-log.com/user/register" class="btn btn-block btn-primary text-uppercase">Get Started</a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-<!-- end of pricing  -->
-
-
-  <!-- Call to Action -->
-  <!-- <section class="content-section bg-primary text-white" id="contact">
+  <!-- Pricing -->
+  <section class="content-section bg-light" id="pricing">
     <div class="container text-center">
-      <h2 class="mb-4">Contact us now for a free consultation and online demo.....</h2>
+      <div class="content-section-heading">
+        <h2 class="mb-5" lang="en">Our Pricing Plans</h2>
+        <h2 class="mb-5" lang="zh">价格方案</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card mb-5 mb-lg-0">
+            <div class="card-body">
+              <h5 class="card-title text-muted text-uppercase text-center" lang="en">Starter</h5>
+              <h5 class="card-title text-muted text-uppercase text-center" lang="zh">入门版</h5>
+              <h6 class="card-price text-center">$15<span class="period" lang="en">/month</span><span class="period" lang="zh">/月</span></h6>
+              <hr>
+              <ul class="fa-ul">
+                <li>
+                  <span class="fa-li">
+                    <i class="fas fa-check"></i>
+                  </span>
+                  <span lang="en">Single Platform Integration</span>
+                  <span lang="zh">单平台集成</span>
+                </li>
+                <li>
+                  <span class="fa-li">
+                    <i class="fas fa-check"></i>
+                  </span>
+                  <span lang="en">5 AI-Generated Ads/Month</span>
+                  <span lang="zh">每月5个AI生成广告</span>
+                </li>
+                <li>
+                  <span class="fa-li">
+                    <i class="fas fa-check"></i>
+                  </span>
+                  <span lang="en">Basic Analytics Dashboard</span>
+                  <span lang="zh">基础分析仪表板</span>
+                </li>
+                <li>
+                  <span class="fa-li">
+                    <i class="fas fa-check"></i>
+                  </span>
+                  <span lang="en">Email Support</span>
+                  <span lang="zh">电子邮件支持</span>
+                </li>
+              </ul>
+              <a href="#contact" class="btn btn-block btn-primary text-uppercase js-scroll-trigger">
+                <span lang="en">Get Started</span>
+                <span lang="zh">立即开始</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card mb-5 mb-lg-0">
+            <div class="card-body">
+              <h5 class="card-title text-muted text-uppercase text-center" lang="en">Business</h5>
+              <h5 class="card-title text-muted text-uppercase text-center" lang="zh">商业版</h5>
+              <h6 class="card-price text-center">$45<span class="period" lang="en">/month</span><span class="period" lang="zh">/月</span></h6>
+              <hr>
+              <ul class="fa-ul">
+                <li>
+                  <span class="fa-li">
+                    <i class="fas fa-check"></i>
+                  </span>
+                  <span lang="en">3 Platform Integrations</span>
+                  <span lang="zh">3个平台集成</span>
+                </li>
+                <li>
+                  <span class="fa-li">
+                    <i class="fas fa-check"></i>
+                  </span>
+                  <span lang="en">20 AI-Generated Ads/Month</span>
+                  <span lang="zh">每月20个AI生成广告</span>
+                </li>
+                <li>
+                  <span class="fa-li">
+                    <i class="fas fa-check"></i>
+                  </span>
+                  <span lang="en">Advanced Analytics & Reporting</span>
+                  <span lang="zh">高级分析和报告</span>
+                </li>
+                <li>
+                  <span class="fa-li">
+                    <i class="fas fa-check"></i>
+                  </span>
+                  <span lang="en">Priority Support</span>
+                  <span lang="zh">优先支持</span>
+                </li>
+                <li>
+                  <span class="fa-li">
+                    <i class="fas fa-check"></i>
+                  </span>
+                  <span lang="en">A/B Testing Tools</span>
+                  <span lang="zh">A/B测试工具</span>
+                </li>
+              </ul>
+              <a href="#contact" class="btn btn-block btn-primary text-uppercase js-scroll-trigger">
+                <span lang="en">Get Started</span>
+                <span lang="zh">立即开始</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-muted text-uppercase text-center" lang="en">Enterprise</h5>
+              <h5 class="card-title text-muted text-uppercase text-center" lang="zh">企业版</h5>
+              <h6 class="card-price text-center">$255<span class="period" lang="en">/month</span><span class="period" lang="zh">/月</span></h6>
+              <hr>
+              <ul class="fa-ul">
+                <li>
+                  <span class="fa-li">
+                    <i class="fas fa-check"></i>
+                  </span>
+                  <span lang="en">Unlimited Platform Integrations</span>
+                  <span lang="zh">无限平台集成</span>
+                </li>
+                <li>
+                  <span class="fa-li">
+                    <i class="fas fa-check"></i>
+                  </span>
+                  <span lang="en">Unlimited AI-Generated Ads</span>
+                  <span lang="zh">无限AI生成广告</span>
+                </li>
+                <li>
+                  <span class="fa-li">
+                    <i class="fas fa-check"></i>
+                  </span>
+                  <span lang="en">Custom Analytics Solutions</span>
+                  <span lang="zh">定制分析解决方案</span>
+                </li>
+                <li>
+                  <span class="fa-li">
+                    <i class="fas fa-check"></i>
+                  </span>
+                  <span lang="en">24/7 Premium Support</span>
+                  <span lang="zh">24/7高级支持</span>
+                </li>
+                <li>
+                  <span class="fa-li">
+                    <i class="fas fa-check"></i>
+                  </span>
+                  <span lang="en">Dedicated Account Manager</span>
+                  <span lang="zh">专属客户经理</span>
+                </li>
+              </ul>
+              <a href="#contact" class="btn btn-block btn-primary text-uppercase js-scroll-trigger">
+                <span lang="en">Get Started</span>
+                <span lang="zh">立即开始</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of pricing  -->
+
+
+  <!-- Contact Section -->
+  <section class="content-section bg-primary text-white" id="contact">
+    <div class="container text-center">
+      <h2 class="mb-4" lang="en">Contact us now for a free consultation</h2>
+      <h2 class="mb-4" lang="zh">立即联系我们获取免费咨询</h2>
       <p>
         <a href="#contactForm" class="btn btn-xl btn-dark" data-toggle="collapse" aria-expanded="false" aria-controls="contactForm">
-          Request early beta access now
+          <span lang="en">Request Information</span>
+          <span lang="zh">请求信息</span>
         </a>
       </p>
-
     </div>
-  </section> -->
+  </section>
 
   <br>
   <div class="container collapse" id="contactForm">
-
-
-    <form action="https://formspree.io/info@Exhausted Logistics.cc" method="POST">
-
+    <form action="#" method="POST" id="contact-form">
         <div class="form-group row">
-          <label for="inputName" class="col-sm-2 col-form-label">Name*</label>
+          <label for="inputName" class="col-sm-2 col-form-label">
+            <span lang="en">Name*</span>
+            <span lang="zh">姓名*</span>
+          </label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" required id="inputName" name="name" placeholder="Your Name">
+            <input type="text" class="form-control" required id="inputName" name="name" placeholder="">
           </div>
         </div>
 
         <div class="form-group row">
-          <label for="inputNumber" class="col-sm-2 col-form-label">Tel*</label>
+          <label for="inputNumber" class="col-sm-2 col-form-label">
+            <span lang="en">Tel*</span>
+            <span lang="zh">电话*</span>
+          </label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" id="inputNumber" required name="tel" placeholder="Your Phone Number">
+            <input type="text" class="form-control" id="inputNumber" required name="tel" placeholder="">
           </div>
         </div>
 
         <div class="form-group row">
-          <label for="inputEmail3" class="col-sm-2 col-form-label">Email*</label>
+          <label for="inputEmail3" class="col-sm-2 col-form-label">
+            <span lang="en">Email*</span>
+            <span lang="zh">电子邮件*</span>
+          </label>
           <div class="col-sm-10">
-            <input type="email" class="form-control" id="inputEmail3" required name="email" placeholder="Email">
+            <input type="email" class="form-control" id="inputEmail3" required name="email" placeholder="">
           </div>
         </div>
 
         <div class="form-group row">
-          <label for="inputMsg" class="col-sm-2 col-form-label">Your Message</label>
+          <label for="inputMsg" class="col-sm-2 col-form-label">
+            <span lang="en">Your Message</span>
+            <span lang="zh">您的留言</span>
+          </label>
           <div class="col-sm-10">
-            <textarea name="name" rows="8" cols="80" name="inputMsg" id="inputMsg" class="form-control"></textarea>
+            <textarea rows="8" cols="80" name="message" id="inputMsg" class="form-control"></textarea>
           </div>
         </div>
 
-
         <div class="form-group row">
           <div class="col-sm-10">
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary">
+              <span lang="en">Submit</span>
+              <span lang="zh">提交</span>
+            </button>
           </div>
         </div>
     </form>
-
-
   </div>
 
   <!-- Footer -->
   <footer class="footer text-center">
     <div class="container">
       <ul class="list-inline mb-5">
-
         <li class="list-inline-item">
           <a class="" href="#imprint" data-toggle="collapse" aria-expanded="false" aria-controls="imprint">
-            Imprint
+            <span lang="en">Imprint</span>
+            <span lang="zh">公司信息</span>
           </a>
         </li>
-
       </ul>
       <div class="container collapse" id="imprint">
-
         <p>
-          Shenzhen Swiftify Network Technology Co.,Ltd
+          <span lang="en">Swiftify</span>
+          <span lang="zh">深圳赛恩费恩网络科技有限公司</span>
         </p>
 
         <p>
-          Level 3, Tower 1, Kerry Plaza, No. 1-1 Zhong Xin 4th Road, Futian District, Shenzhen 518048, P.R. China
+          <span lang="en">Level 3, Tower 1, Kerry Plaza, No. 1-1 Zhong Xin 4th Road, Futian District, Shenzhen 518048, P.R. China</span>
+          <span lang="zh">中国深圳市福田区中心四路1-1号嘉里建设广场1座3层 518048</span>
         </p>
 
         <p>
-          Phone: 0755-32857604
+          <span lang="en">Phone: +86 136 9976 9469</span>
+          <span lang="zh">电话: +86 136 9976 9469</span>
         </p>
-
-
-
       </div>
-      <p class="text-muted small mb-0">Copyright &copy;Shenzhen Swiftify Network Technology Co.,Ltd 2023</p>
+      <p class="text-muted small mb-0">
+        <span lang="en">Copyright &copy; Swiftify 2023</span>
+        <span lang="zh">版权所有 &copy; 深圳赛恩费恩网络科技有限公司 2023</span>
+      </p>
     </div>
   </footer>
 
@@ -720,6 +790,9 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/stylish-portfolio.min.js"></script>
+  
+  <!-- Language Switcher JavaScript -->
+  <script src="js/language-switcher.js"></script>
 
 </body>
 
